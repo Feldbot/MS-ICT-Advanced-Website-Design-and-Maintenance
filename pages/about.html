@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<title>About</title>
+	<meta charset="UTF-8" />
+	<script type="text/javascript" src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+	<link href='https://fonts.googleapis.com/css?family=VT323' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="../css/styles.css" />
+</head>
+
+<body>
+	<div id="container">
+		<header>
+			<h1>Experiments in Web Development
+
+				</h1>
+			<h2>
+					<div id="localStorage"></div>
+				</h2>
+		</header>
+		<nav>
+			<ul>
+				<li><a href="../index.html">Home</a></li>
+				<li><a href="about.html" class="current">About</a></li>
+				<li><a href="gallery.html">Gallery</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+		<article>
+			<p>// This website showcases dynamic web scripting techniques, which primarily include:</p>
+			<ul>
+				<li class="aboutList">Javascript &mdash; the site uses scripting to dynamically inject HTML through the DOM </li>
+				<li class="aboutList">Ajax form validation &mdash; Parsley, a JS form validation library, is used on the contact form to verify fields</li>
+				<li class="aboutList">jQuery UI &mdash; the contact form fields use a widget to display dynamic tooltips</li>
+				<li class="aboutList">Flickr API &mdash; the gallery uses an API to pull images directly from Flickr servers</li>
+				<li class="aboutList">Local Storage &mdash; the credit line is served from local storage and injected through the DOM</li>
+				<li class="aboutList">Ajax GET calls &mdash; the footer IP is echoed back by httpbin.org servers</li>
+			</ul>
+			<img src="../images/logosoup.png" id="logosoup" alt="javascript, ajax, flickr, and local storage logos" title="this logo soup tastes like tech!">
+		</article>
+		<footer>
+			<button> credits </button>
+		</footer>
+		<script type="text/javascript" src="../js/main.js" /></script>
+</body>
+
+</html>
