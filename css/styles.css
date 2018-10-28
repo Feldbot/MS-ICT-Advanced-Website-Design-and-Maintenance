@@ -66,7 +66,8 @@ footer  {
 	clear: both;
 	display: block;
 	width: 800px;
-	background: #222222;
+	height: 50px;
+	background-color: #222222;
 }
 h1  {
 	font-family: 'VT323';
